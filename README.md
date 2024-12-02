@@ -12,8 +12,8 @@ The things common in all 3 is the following:
 5. It was further split in train and test data
 6. From here the models were trained with the auc roc loss metric and accuracy graphs were plotted
 
-The first file '1.ipynb' is using pre-trained models fitted with the test data and does not include any measures for the class imbalance.  
+The first file 'Pre Trained.ipynb' is using pre-trained models fitted with the test data and does not include any measures for the class imbalance.  
 
-The second file '2.ipynb' follows the first file and uses SMOTE to create artificial data for reducing the class imbalance by interpolating new data from two already existing points.  
+The second file 'Processed Trained.ipynb' follows the first file and uses SMOTE to create artificial data for reducing the class imbalance by interpolating new data from two already existing points.  
 
-The third file '3.ipynb' diverges from the other two and focuses on making a custom model with a input layer, 3 hidden layers and an output layer 
+The third file 'Custom Trained.ipynb' diverges from the other two and focuses on making a custom model with a input layer, 3 hidden layers and an output layer 
